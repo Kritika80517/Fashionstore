@@ -95,3 +95,8 @@ color: white;
 a{
     color: black;
 }
+/* cetegory */
+.card{
+    margin-top: 20px;
+    /* margin-left: 5%; */
+}
