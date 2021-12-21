@@ -51,3 +51,47 @@ margin-left: 25px;
 li.navbar-nav{
     color: white;
 }
+/* this is second style.css */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../../Image/background.jpeg);
+    background-size: cover;
+   /* padding-left: 5%;
+    padding-right: 5%*/
+}
+/*.main{
+    height: 100vh;
+    background-image: url(../../Image/background.jpeg);
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%; 
+}
+.mb-3 {
+    margin-left: 5%;
+}
+/* .form-label{
+    margin-left: 10%;
+} */
+.btn-primary{
+    border: none;
+    transition: all .5s ease-in-out;
+    padding: 5px 25px;
+    border-radius: 50px;
+    margin-left: 5%;
+}
+.btn-primary:hover{
+    transform: scale(1.05);
+}
+.fa-solid{
+    font-size: 30px;
+    margin-left: 25px;
+}
+.nav-item{
+color: white;
+}
+a{
+    color: black;
+}
