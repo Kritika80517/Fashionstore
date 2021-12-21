@@ -52,10 +52,7 @@ li.navbar-nav{
     color: white;
 }
 /* this is second style.css */
-*{
-    margin: 0;
-    padding: 0;
-}
+
 body{
     background-image: url(../../Image/background.jpeg);
     background-size: cover;
