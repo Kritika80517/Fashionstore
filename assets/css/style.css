@@ -1,62 +1,133 @@
-*{
+* {
+  margin: 0;
+  padding: 0;
+}
+.saerch-btn{
     margin: 0;
-    padding: 0;
 }
-body{
-    background-color: rgb(224, 233, 233);
+.btn-default {
+  background-color: hotpink !important;
+  padding: 5px 30px !important;
+  color: white !important;
+  transition: all ease-in-out 0.5s;
+  border: 1px solid rgb(255, 255, 255) !important;
 }
-.container-bg{
-    height: 100vh;
-    /* width: 100%; */
-    background-image: url(../../Image/background2.jpeg) !important;
-    /* background-position: center; */
-    /* background-color: ivory; */
-    background-size: cover;
-    padding-left: 5%;
-    padding-right: 5%; 
-    /* box-sizing: border-box; */
-    /* position: relative; */
+.btn-default:hover {
+  background-color: white !important;
+  border: 1px solid hotpink !important;
+  padding: 5px 30px !important;
+  color: hotpink !important;
 }
+body {
+  background-color: rgb(224, 233, 233);
+}
+.container-bg {
 
-.navbar-nav{
-    margin-left: 50px;
+  /* width: 100%; */
+  /* background-image: url(../../Image/background2.jpeg) !important; */
+  /* background-position: center; */
+  /* background-color: ivory; */
+  background-size: cover;
+  padding-left: 5%;
+  padding-right: 5%;
+  /* box-sizing: border-box; */
+  /* position: relative; */
 }
-.fas{
-font-size: 30px;
-margin-left: 25px;
+.form-group .search .search-icon {
+  border-radius: 0 !important;
 }
+.search-icon {
+  background-color: transparent !important;
+  border: 0 !important;
+}
+.search-icon i {
+  margin-left: -40px;
 
-.content h1{
-    font-size: 50px;
-    color: rgb(74, 74, 207);
-    font-weight: 100;
-    margin-top: 24px;
-    margin-bottom: 15px;
 }
-.content p{
-    margin-left: 10%;
-    color: #6a7199;
+@media screen and (max-width: 562px) {
+.search-icon {
+display: none !important;
+
+}
+.search-icon i{
+    display: none !important;
+    }
+    .saerch-btn{
+        margin-bottom: 16px !important;
+    }
+}
+.navbar-nav {
+  margin-left: 50px;
+}
+.nav-item a{
+    color: 000 !important;
+    transition: all ease-in-out .5s;
+}
+.nav-item a:hover{
+    color: white !important;
+}
+.navbar-light .navbar-toggler{
+    background-color: white !important;
+    border-radius: 0;
+}
+.navbar-light .navbar-toggler-icon{
+    color: hotpink !important;
+}
+.cart i {
+  font-size: 30px;
+  margin-left: 25px;
+  color: white !important;
+
+}
+.cart-text {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  .cart i {
+    display: none;
+  }
+  .cart-text {
+    display: block;
+  }
+  
 }
 .content {
-    margin-left: 10%;
-    margin-top: 10%;
-}
+    margin-top: 200px;
+  }
+  .content h1 {
+    font-size: 50px;
+    font-weight: 900;
+  }
+
+
 .side-img {
-    height: 200%;
-    padding-left: 10%;
-    /* position: absolute; */
-    bottom: 0;
-    right: 160px;
+  width: 100%;
+  height: 500px;
+  margin-top: 100px;
 }
-li.navbar-nav{
-    color: white;
+@media screen and (max-width:762px) {
+    .content {
+        margin-top: 80px;
+      }
+      .content h1 {
+        font-size: 40px;
+        font-weight: 900;
+      }
+      .side-img {
+        width: 100%;
+        height: 350px;
+        margin-top: 50px;
+      }
+}
+li.navbar-nav {
+  color: white;
 }
 /* this is second style.css */
 
-body{
-    background-image: url(../../Image/background.jpeg);
-    background-size: cover;
-   /* padding-left: 5%;
+body {
+  background-image: url(../../Image/background.jpeg);
+  background-size: cover;
+  /* padding-left: 5%;
     padding-right: 5%*/
 }
 /*.main{
@@ -72,28 +143,28 @@ body{
 /* .form-label{
     margin-left: 10%;
 } */
-.btn-primary{
-    border: none;
-    transition: all .5s ease-in-out;
-    padding: 5px 25px;
-    border-radius: 50px;
-    margin-left: 5%;
+.btn-primary {
+  border: none;
+  transition: all 0.5s ease-in-out;
+  padding: 5px 25px;
+  border-radius: 50px;
+  margin-left: 5%;
 }
-.btn-primary:hover{
-    transform: scale(1.05);
+.btn-primary:hover {
+  transform: scale(1.05);
 }
-.fa-solid{
-    font-size: 30px;
-    margin-left: 25px;
+.fa-solid {
+  font-size: 30px;
+  margin-left: 25px;
 }
-.nav-item{
-color: white;
+.nav-item {
+  color: white;
 }
-a{
-    color: black;
+a {
+  color: black;
 }
 /* cetegory */
-.card{
-    margin-top: 20px;
-    /* margin-left: 5%; */
+.card {
+  margin-top: 20px;
+  /* margin-left: 5%; */
 }
