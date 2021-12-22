@@ -175,6 +175,15 @@ a {
 /* css for carousel */
 .carousel-inner{
   width: 100%;
-  height: 400px;
+  height: 500px;
 }
-
+@media screen and (max-width:800px) {
+  .carousel-inner{
+    width: 100%;
+    height: 200px;
+  }
+}
+.carousel-control-prev, .carousel-control-next{
+  border: 0 !important;
+  background: transparent !important;
+}
